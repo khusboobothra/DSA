@@ -1,13 +1,10 @@
 /*
 BRIDGE : A bridge is defined as an edge which when removed makes graphs disconnected or more precisely it oimcreases the number of components int the graph. 
-tin[] :  it denotes the time at which a node enters(a dfs call)
+tin[] :  it denotes the time at which a node enters(a dfs call) - time of insertion
 low[] : it denotes the time of lowest ancestor(not the parent) which can be reached directly from that node(back-edge)
 */
 
-
-
-
-
+//CODE :
 void dfs(int node,int parent,vector<int>&vis,vector<int>&tin,vector<int>&low,int &timer,vector<int>&adj)
 {
     vis[node]=1;
